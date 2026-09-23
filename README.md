@@ -85,7 +85,12 @@ TMD_DASPRO/
 ├── dataComplate.txt    # [VIEW]  Hasil JOIN (dibuat ulang oleh SHOW COMPLATE)
 │
 ├── testcase.txt        # Dokumentasi test case benar & salah
-└── README.md           # Dokumentasi ini
+├── README.md           # Dokumentasi ini
+│
+└── Tampilan/                # 📸 Folder screenshot tampilan program
+    ├── Tampilan Menu1.png   # Menu awal (intro + panduan bagian 1)
+    ├── Tampilan Menu2.png   # Panduan bagian 2 (lanjutan catatan INPUT & UPDATE)
+    └── Tampilan Menu3.png   # Panduan bagian 3 (DEL, SHOW, BANTU, EXIT) & prompt
 ```
 
 **Keterangan berkas kode:**
@@ -247,7 +252,26 @@ EXIT JANGAN LUPA TERTAWA WALAUPUN TERLUKA#
 11. Tidak boleh ada nama maupun NIM yang sama.
 12. Urutan masukan harus persis sesuai format.
 
-### 5. Test Case
+### 5. 📸 Dokumentasi Tampilan Menu Awal
+
+Berikut tampilan program saat pertama kali dijalankan — banner sambutan **DBMS "JACK"** dan **panduan query** yang ditampilkan otomatis oleh `judul()` dan `panduan()`, sebelum masuk ke prompt `dbms Jack >>`:
+
+![Tampilan Menu Awal — Banner & Panduan](Tampilan/Tampilan%20Menu1.png)
+
+<details>
+<summary><b>Lanjutan tampilan panduan (klik untuk membuka)</b></summary>
+
+**Panduan bagian 2** — sisa aturan `INPUT`, format dan catatan `UPDATE`:
+
+![Tampilan Menu Awal — Panduan bagian 2](Tampilan/Tampilan%20Menu2.png)
+
+**Panduan bagian 3** — keterangan `DEL`, `SHOW`, `BANTU`, `EXIT`, sampai ke prompt perintah:
+
+![Tampilan Menu Awal — Panduan bagian 3](Tampilan/Tampilan%20Menu3.png)
+
+</details>
+
+### 6. Test Case
 
 Lihat [`testcase.txt`](testcase.txt) untuk daftar lengkap test case **benar** dan **salah** untuk keempat query, contohnya:
 
@@ -261,7 +285,7 @@ Lihat [`testcase.txt`](testcase.txt) untuk daftar lengkap test case **benar** da
 | ❌ | `DEL SKILL S001#` | ID masih dipakai di tabel MAHASISWA |
 | ❌ | `SHOW MAHASISWA SKILL#` | SHOW hanya menerima satu nama file |
 
-### 6. Pesan Error yang Tersedia
+### 7. Pesan Error yang Tersedia
 
 | Prosedur | Pesan |
 |---|---|
