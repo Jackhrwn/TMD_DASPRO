@@ -1,0 +1,9 @@
+D001 Crcodile 2505678 Cepat_Dalam_Mengetik ICFP_Programming_Contest Buat_Janji_Tapi_Diingkari
+D002 Brenda 2599123 Cepat_Berpikir_kritis Microsoft_Imagine_Cup Memperbudak_ChatGPT
+D003 Frank 2576589 Cepat_Problem_Solving ICFP_Programming_Contest Nyontek_kode
+D004 Carl 2510297 Selalu_Tepat_waktu TopCoder Ngehack_CSPC
+D005 Wilson 2587901 Dapat_Bekerja_Dalam_Tekanan Internet_Problem_Solving_Contest Menjual_Kode_Ujian
+D006 Kevin 2543720 Cepat_Berpikir_kritis ACM-ICPC Nyontek_kode
+D007 JACK 2509371 Cepat_Berpikir_kritis ACM-ICPC Nyontek_kode
+D008 BAKA 2509371 Cepat_Berpikir_kritis ACM-ICPC Nyontek_kode
+#### #### #### #### #### ####

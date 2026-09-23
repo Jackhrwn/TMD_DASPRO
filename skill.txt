@@ -1,0 +1,7 @@
+S001 Cepat_Berpikir_kritis 
+S002 Cepat_Problem_Solving 
+S003 Cepat_Dalam_Mengetik 
+S004 Selalu_Tepat_waktu 
+S005 Dapat_Bekerja_Dalam_Tekanan 
+S007 Pandai_berimajinasi 
+#### ####

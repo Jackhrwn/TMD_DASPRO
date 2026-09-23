@@ -1,0 +1,7 @@
+L001 ACM-ICPC 
+L002 TopCoder 
+L003 ICFP_Programming_Contest 
+L004 Internet_Problem_Solving_Contest 
+L005 Microsoft_Imagine_Cup 
+L008 COMPUTER_SCIENCE 
+#### ####

@@ -1,0 +1,67 @@
+==============================================================================
+           .---.             __________________________________________
+          | ()()|           |                                          |
+           \  ^ /           |         SELAMAT DATANG DI JACK           |
+            |||||           |        ____  ____  __  __ ____           |
+         ___/   \___        |        |  _ \| __ )|  \/  / ___|         |
+        /           \       |        | | | |  _ \| |\/| \___ \         |
+        \____   ____/       |        | |_| | |_) | |  | |___)|         |
+             | |            |        |____/|____/|_|  |_|____/         |
+             |_|            |      --- REAL COMPETITION 2025 ---       |
+                            |__________________________________________|
+
+==============================================================================
+
+=======================
+TESTCASE INPUT:
+BENAR:
+INPUT MAHASISWA D010 kiboy_ml 2502381 S004 L003 K003#
+INPUT SKILL S014 Cepat_Beradaptasi#
+INPUT LOMBA L012 C-COMPETITION#
+INPUT CURANG K011 Ngehack_Web_Kampus#
+
+SALAH:
+INPUT                                                       //tidak ada pagar di akhir 
+INPUT MAHASISWA#                                            //input kurang
+INPUT MAHASISWA D010 kiboy_ml 2502381 S004 L003 K003 F001#  //input lebih
+INPUT MAHASISWA D010 kiboy_ml 250 S004 L003 K003#           //jumlah nim kurang
+INPUT MAHASISWA D010 kiboy_ml 2509371 S004 L003 K003#       //nim ada yang sama
+INPUT MAHASISWA d010 kiboy_ml 2502381 S004 L0003 k03#       //id tidak di awali huruf besar atau kurang dari 4 atau lebih
+INPUT COMPLATE C001 DATA#                                   //tidak bisa melakukan input di file COMPLATE
+INPUT MAHASISWA D010 UDIN MAULANA 2509371 S001 L001 K001#   //nama 2 kata harus pakai underscore nanti dibaca nim oleh program
+INPUT SKILL S111 Cepat_Berpikir_kritis#                     //nama sama
+=======================
+TESTCASE UPDATE:
+BENAR:
+UPDATE MAHASISWA D001 kevin 2537825 S004 L003 K002#      
+UPDATE SKILL S002 Cepat_Belajar_Hal_Baru#                   
+UPDATE LOMBA L002 TopSCIENCE#
+UPDATE CURANG K003 Buat_Janji_Suka_Diingkari#
+
+SALAH:
+UPDATE MAHASISWA D124 kiboy_ml 2502381 S004 L003 K003#      //kode primari tidak ada dalam tabel
+UPDATE SKILL S123 Tahan_Api#                                //idskill tidak ada dalm tabel
+=======================
+TESTCASE DEL:
+BENAR:
+DEL CURANG 
+DEL LOMBA L008#
+DEL SKILL S007#
+DEL MAHASISWA D007#
+
+SALAH:
+
+DEL SKILL S001#                         //idskill masih dipakai di tabel MAHASISWA
+DEL MAHASISWA D123#                     //idmahasiswa tidak ada dalam tabel MAHASISWA
+=======================
+TESTCASE SHOW:
+BENAR:
+SHOW MAHASISWA#
+SHOW SKILL#
+SHOW LOMBA#
+SHOW CURANG#
+SHOW COMPLATE#
+
+SALAH:                                  
+SHOW MAHASISWA SKILL#                   //nama file hanya bisa satu
+=======================
